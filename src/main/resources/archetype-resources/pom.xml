@@ -292,6 +292,13 @@ under the License.
           <groupId>org.apache.turbine</groupId>
           <artifactId>turbine</artifactId>
           <version>#var("turbine.core")</version>
+          <!-- should be resolved after upgrade to torque-4.1 -->
+          <exclusions>
+            <exclusion>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils-core</artifactId>
+            </exclusion>
+          </exclusions>
       </dependency>
       <!-- slf4j still optional in 4.0 -->
       <dependency>
