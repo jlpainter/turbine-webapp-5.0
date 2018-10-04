@@ -1,4 +1,0 @@
-2018-10-04 13:45:55,875 [main] INFO  org.apache.torque.generator.control.Controller - readConfiguration() : Starting to read configuration files
-2018-10-04 13:45:55,927 [main] INFO  org.apache.torque.generator.configuration.controller.Log4jLoggingAdapter - apply() : Setting loglevel to ERROR
-2018-10-04 13:45:57,093 [main] INFO  org.apache.torque.generator.control.Controller - readConfiguration() : Starting to read configuration files
-2018-10-04 13:45:57,093 [main] INFO  org.apache.torque.generator.configuration.controller.Log4jLoggingAdapter - apply() : Setting loglevel to ERROR
